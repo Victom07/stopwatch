@@ -1,0 +1,50 @@
+* body{
+    background: #136a8a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+div{
+    text-align: center;
+    align-items: inline-block;
+}
+h2{
+    color:white;
+    display: inline-block;
+
+}
+h1{
+    color:white;
+    display: inline-block;
+    width: 100px;
+}
+p{
+    padding-top: 200px;
+    color:White;
+    font-family: Times, Times New Roman, serif;
+    font-size: 500%;
+
+}
+
+@media only screen and (max-width: 900px) {
+    p{
+
+        font-size: 300%;
+    
+    }
+}
+@media only screen and (max-width: 600px) {
+    p{
+
+        font-size: 300%;
+    
+    }
+}
+@media only screen and (max-width: 400px) {
+    p{
+
+        font-size: 300%;
+    
+    }
+}
